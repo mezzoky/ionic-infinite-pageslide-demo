@@ -1,0 +1,10 @@
+<ion-view view-title="{{home.title}}">
+    <ion-nav-buttons side="left">
+    </ion-nav-buttons>
+    <ion-content class="padding">
+        <p>Polar bears are left handed.</p>
+            <div class="button icon ion-home" ui-sref="job({id: home.random})" ng-click="home.clicked()"> Go to Job #{{home.random}}</div>
+            <div class="button icon ion-home" ui-sref="tutorial" ng-click="home.clicked()"> Go to Tutorial</div>
+            <div class="button icon ion-home" ui-sref="user" ng-click="home.clicked()"> Go to User</div>
+    </ion-content>
+</ion-view>
